@@ -1,0 +1,55 @@
+body{
+	background-image: url(ghanaba.jpg);
+	background-size: cover;
+	
+
+}
+
+h1{
+	font-size: 50px;
+	font-family: Times New Roman;
+	text-align: center;
+	border: 4px solid red;
+	border-width: 40%;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px
+}
+
+div{
+	font-size: 20px;
+	font-family: calibri;
+	text-align: center;
+	margin: 10px;
+	padding: 15px
+}
+
+#delivery{
+	font-size: 20px;
+	font-family: calibri;
+	text-align: right;
+	border: 6px solid green;
+	border-width: 40%;
+	border-radius: 10px;
+}
+
+a{
+	font-size: 20px;
+	align-content: right;
+	color: green;
+	font-family: Harrington;
+	text-align: center;
+	border: 5px solid green;
+	border-width: 40%;
+	border-radius: 10px;
+}
+
+img{
+	border: 5px solid purple;
+	border-width: 30%;
+	border-radius: 15px;
+}
+
+ul{
+	align-items: center;
+}

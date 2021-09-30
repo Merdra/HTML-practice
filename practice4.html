@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+
+	<title>Forms</title>
+	
+	<style>
+
+	body{
+	background-image: url(ghanaba.jpg);
+	text-align: center;
+	color:#002060;
+	font-family: Lucida Handwriting;
+
+}
+
+h1{
+	font-size: 50px;
+	font-family: Maiandra GD;
+	text-align: center;
+	border: 3px solid red;
+	border-width: 40%;
+	border-radius: 10px;
+	padding: 5px 4px 5px 4px; 
+	margin: 4px 5px 4px 5px;
+	width:40% center;
+	
+}
+
+input{
+	width:;
+	height:18px;
+	border-radius:5px;
+	border-color: blue;
+}	
+
+	</style>
+
+</head>
+<body>
+	<br>
+	<h1>Sign Up</h1>
+	<form>
+		<br>
+		<div id="First-Name">
+			<label>First Name:</label>
+			<br>
+			<input type="text" name="first-name">
+		</div>
+
+		<div id="Surname">
+			<label>Surname:</label>
+			<br>
+			<input type="text" name="Surname">
+		</div>
+
+		<div id="date-of-birth">
+			<label>Date of birth:</label>
+			<br>
+			<input type="date" name="date-of-birth" id="date">
+		</div>
+
+		<div id="email">
+			<label>Email:</label>
+			<br>
+			<input type="email" name="email" id="email" maxlength="30">
+		</div>
+
+		<div id="password">
+			<label>Password:</label>
+			<br>
+			<input type="Password" name="password" id="password" minlength="6" maxlength="32">
+		</div>
+
+		<div id="password">
+			<label>Confirm Password:</label>
+			<br>
+			<input type="Password" name="password" id="password" minlength="6" maxlength="32">
+		</div>
+
+		<div class="form-input">
+			<label>Gender:</label>
+			<br>
+			<label>Male</label>
+			<input type="radio" name="gender" value="male" checked>
+			<label>Female</label>
+			<input type="radio" name="gender" value="female">
+			<label>LGBTQI+</label>
+			<input type="radio" name="gender" value="LGBTQI+">
+		</div>
+
+		<div class="form-input">
+			<input type="submit" name="submit">
+		</div>	
+	</form>
+
+</body>
+</html>
